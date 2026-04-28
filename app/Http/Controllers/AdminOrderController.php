@@ -121,9 +121,9 @@ class AdminOrderController extends Controller
     }
     public function cetakLaporan(Request $request)
     {
-        // Mengambil input bulan dan tahun, jika tidak ada maka default ke bulan/tahun sekarang
-        $month = $request->input('month', now()->month);
-        $year = $request->input('year', now()->year);
+        // Tambahkan (int) untuk memaksa input teks menjadi angka pasti
+        $month = (int) $request->input('month', now()->month);
+        $year = (int) $request->input('year', now()->year);
 
         // Ambil data pesanan selesai pada periode tersebut
         $orders = Order::whereMonth('created_at', $month)
