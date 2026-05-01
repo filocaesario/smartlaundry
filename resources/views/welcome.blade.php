@@ -285,13 +285,13 @@
                     <p class="text-xs font-bold text-blue-200 uppercase tracking-wider">Pelanggan Puas</p>
                 </div>
                 <!-- Stat 3 -->
-                <div class="stat-card text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-100 shadow-sm hidden lg:block">
+                  <div class="stat-card text-center p-8 bg-white/15 backdrop-blur-md rounded-3xl border border-white/20 shadow-lg">
                     <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-sm">⚡</div>
                     <h3 class="text-4xl font-black text-white mb-1 tabular-nums">24h</h3>
                     <p class="text-xs font-bold text-blue-200 uppercase tracking-wider">Selesai Cepat</p>
                 </div>
                 <!-- Stat 4 -->
-                <div class="stat-card text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-100 shadow-sm hidden lg:block">
+                 <div class="stat-card text-center p-8 bg-white/15 backdrop-blur-md rounded-3xl border border-white/20 shadow-lg">
                     <div class="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-sm">⭐</div>
                     <h3 class="text-4xl font-black text-white mb-1 tabular-nums">4.9</h3>
                     <p class="text-xs font-bold text-blue-200 uppercase tracking-wider">Rating Bintang</p>
